@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RailwaySignals>
+  <Signal>
+    <SignalId>SIG001</SignalId>
+    <Type>MAIN</Type>
+    <TrackId>TRACK01</TrackId>
+    <Position>1250</Position>
+    <Direction>FORWARD</Direction>
+    <State>RED</State>
+  </Signal>
+  <Signal>
+    <SignalId>SIG002</SignalId>
+    <Type>DISTANT</Type>
+    <TrackId>TRACK01</TrackId>
+    <Position>1850</Position>
+    <Direction>FORWARD</Direction>
+    <State>YELLOW</State>
+  </Signal>
+  <Signal>
+    <SignalId>SIG003</SignalId>
+    <Type>MAIN</Type>
+    <TrackId>TRACK02</TrackId>
+    <Position>2400</Position>
+    <Direction>REVERSE</Direction>
+    <State>GREEN</State>
+  </Signal>
+  <Signal>
+    <SignalId>SIG004</SignalId>
+    <Type>SHUNT</Type>
+    <TrackId>TRACK03</TrackId>
+    <Position>3100</Position>
+    <Direction>FORWARD</Direction>
+    <State>RED</State>
+  </Signal>
+  <Signal>
+    <SignalId>SIG005</SignalId>
+    <Type>SHUNT</Type>
+    <TrackId>TRACK03</TrackId>
+    <Position>2000</Position>
+    <Direction>direct</Direction>
+    <State>red</State>
+  </Signal>
+</RailwaySignals>
